@@ -1,0 +1,80 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  display: block;
+}
+
+@media (min-width: 768px) .container {
+  max-width: 720px;
+}
+
+@media (min-width: 576px) .container {
+  max-width: 540px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  display: block;
+}
+
+justify-content-between {
+  justify-content: space-between;
+}
+
+d-flex {
+  display: flex;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+@media (max-width: 900px) nav a {
+  font-size: 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+  list-style-type: disc;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+@media (max-width: 900px) nav a {
+  font-size: 14px;
+}
+
+nav a {
+  transition: all 100ms ease-in-out;
+}
