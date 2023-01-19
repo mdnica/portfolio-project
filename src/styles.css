@@ -143,3 +143,59 @@ h2 {
   vertical-align: middle;
   border: 1px solid transparent;
 }
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 10px;
+}
+
+.d-none {
+  display: none;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+  border-style: double;
+}
+
+@media (max-width: 900px) .project-description {
+  padding: 0;
+  text-align: center;
+}
+
+.project-description {
+  padding: 40px 60px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
